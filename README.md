@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">📝 MyTextEditor</h1>
   <p align="center">
-    A lightweight, terminal-based text editor written in C — inspired by <a href="https://viewsourcecode.org/snaptoken/kilo/">kilo</a>.
+    A lightweight, terminal-based text editor written in C.
     <br />
     Fast. Minimal. No dependencies.
   </p>
@@ -20,7 +20,7 @@
 
 **MyTextEditor** is a terminal-based text editor built from scratch in C, designed to run directly in your terminal with zero external dependencies. It operates in **raw mode**, giving you full control over every keypress, and renders the entire interface using **ANSI escape sequences** — no curses library required.
 
-Despite being under **1,800 lines of C**, it packs a surprising number of features that make it genuinely usable for quick edits and learning how text editors work under the hood.
+Despite being under **1,200 lines of C**, it packs a surprising number of features that make it genuinely usable for quick edits and learning how text editors work under the hood.
 
 ---
 
@@ -216,13 +216,6 @@ Contributions are welcome! Here are some ideas for improvements:
 ## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🙏 Acknowledgments
-
-- Inspired by the [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/) tutorial and the original [kilo](https://github.com/antirez/kilo) editor by Salvatore Sanfilippo (antirez).
-- Built as a learning project to understand how terminal applications, raw mode I/O, and text editors work at a fundamental level.
 
 ---
 
